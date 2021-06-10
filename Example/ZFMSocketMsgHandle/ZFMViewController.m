@@ -7,6 +7,8 @@
 //
 
 #import "ZFMViewController.h"
+#import <SocketManager.h>
+#import <SocketMsgHandle.h>
 
 @interface ZFMViewController ()
 

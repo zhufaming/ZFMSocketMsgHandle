@@ -8,9 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZFMSocketMsgHandle'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = '基于WebSocket 实现的消息推送+本地通知处理'
-  s.platform = :ios
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
@@ -36,7 +35,7 @@ TODO:基于WebSocket 实现的消息推送+本地通知处理，实现通知代�
   #   'ZFMSocketMsgHandle' => ['ZFMSocketMsgHandle/Assets/*.png']
   # }
 
-  s.public_header_files = 'Pod/Classes/**/*.h'
+  #s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'SocketRocket'
 end
