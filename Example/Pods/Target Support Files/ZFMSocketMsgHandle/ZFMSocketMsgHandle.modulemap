@@ -1,0 +1,6 @@
+framework module ZFMSocketMsgHandle {
+  umbrella header "ZFMSocketMsgHandle-umbrella.h"
+
+  export *
+  module * { export * }
+}

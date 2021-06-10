@@ -1,0 +1,1001 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0025C2C9745D4BA1368DFC0CFE227662 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BCE281D4E9C59C89393A4B7E2B681D /* Foundation.framework */; };
+		2F163FF78D4612C1CAC68009A1210179 /* SocketRocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF84761A9BB49928912615B1A94F6CDB /* SocketRocket.framework */; };
+		33B94306072B315DAC1A2FFCC73B5C08 /* Pods-ZFMSocketMsgHandle_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 799911AB202CDAA9E9621C01B5A4EB39 /* Pods-ZFMSocketMsgHandle_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48FD685B64664A1989A23D65E10DE864 /* Pods-ZFMSocketMsgHandle_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BAA542AB1FD30B89B32C01F1A1109DE /* Pods-ZFMSocketMsgHandle_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F10300F1B68B9D5032E40EB659C223E /* SocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F233E43FBC03850C61444632792D02 /* SocketManager.m */; };
+		522E5B6A9D6D809AC93817E1860CC9C9 /* Pods-ZFMSocketMsgHandle_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC33E07D9973F4BF57BD73636361EE67 /* Pods-ZFMSocketMsgHandle_Example-dummy.m */; };
+		644AB50980F01779B53EE7B6C324998D /* SocketMsgHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = AC6C20BF6621F6A0CCF340E924CE252B /* SocketMsgHandle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		718627C939BA0B6981509093D9525DCF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BCE281D4E9C59C89393A4B7E2B681D /* Foundation.framework */; };
+		735DFE5216ED66A16259B56CAB3B46CF /* SocketRocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BB500078F93946C3AB2BB7C33B5603 /* SocketRocket-dummy.m */; };
+		73B4B4972C5D3416AA4F2C65F5BE3305 /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E7452C239F5CF1A5F27DCC1EF435B0B /* SRWebSocket.m */; };
+		778D0B3A3BFC6B74234D39F9EDCF3659 /* SocketRocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 8832809CE6F5ABF08E5916C5E907EC16 /* SocketRocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8824ECF1386C06CAF4888F29CC36E763 /* Pods-ZFMSocketMsgHandle_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FE8BA5339A82523F67D5EB63E21D58 /* Pods-ZFMSocketMsgHandle_Tests-dummy.m */; };
+		942805DC3F88FCB760CC4E70BBE8FDA2 /* SocketMsgHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = C7615152C41CA900D7BF5DFB0897E5AC /* SocketMsgHandle.m */; };
+		949A1B9F8DC5F24862C1635754691081 /* SocketManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 099449BE6E7F80ABB81CEB258DB170FB /* SocketManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E2B1AC4FC728208BB79B52BFEB2D78F /* SRWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 83670A4972B101D85A1DADD0862004FF /* SRWebSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADEB6592F3D729B4657222B76545AAE9 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CD3F6DA0159722D3221737697550C7 /* ReplaceMe.m */; };
+		C06D8DD7486D5FE925ECD0604B31EC30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BCE281D4E9C59C89393A4B7E2B681D /* Foundation.framework */; };
+		C55BAF90C4EB80467C61EE0CBE309700 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BCE281D4E9C59C89393A4B7E2B681D /* Foundation.framework */; };
+		E6FB7791B3140FBA3AB1FD3BAE176281 /* ZFMSocketMsgHandle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EC46E2A0EC95041477D58DCBCB35DD5 /* ZFMSocketMsgHandle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9B7B74B8E22EA8B72014023066C5064 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5E45732B1641A4D8777A7A61CE70D6D /* Security.framework */; };
+		EE42FC3B05BA351BF35F3543910AD09C /* ZFMSocketMsgHandle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E738FB03496846E72852C8FE8A8C29 /* ZFMSocketMsgHandle-dummy.m */; };
+		F1673306D2528E24477E098832882D05 /* SocketRocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7170E073E4B1CDDAB72607430B713FC0 /* SocketRocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFDED2CB3316B6FC19C01201F28E7546 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DAD2FEB8855A7F634F0B4B2DD6F1BFB /* CFNetwork.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2480643A632ABBB5586278C4534B4729 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 081B451B80C52E95B8E0566AE119927F;
+			remoteInfo = ZFMSocketMsgHandle;
+		};
+		5073010E1AA6ADA6E3C47324311E3267 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1948D0B63D2CF6A48E18B0B292BC6091;
+			remoteInfo = SocketRocket;
+		};
+		5BFAE6F3989B81467EFF58EAB84AEE9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1948D0B63D2CF6A48E18B0B292BC6091;
+			remoteInfo = SocketRocket;
+		};
+		80C1914A3C5EF0ACB0146F33DED4D0DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 600A795D8BC492918A0DF4F04643BD18;
+			remoteInfo = "Pods-ZFMSocketMsgHandle_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		099449BE6E7F80ABB81CEB258DB170FB /* SocketManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SocketManager.h; path = ZFMSocketMsgHandle/Classes/SocketManager.h; sourceTree = "<group>"; };
+		0D374BF941D2EEA091A6B26D8557993F /* SocketRocket-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SocketRocket-Info.plist"; sourceTree = "<group>"; };
+		0D9F6475B11C8203E599A0C6B723F69C /* ZFMSocketMsgHandle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZFMSocketMsgHandle.release.xcconfig; sourceTree = "<group>"; };
+		13F233E43FBC03850C61444632792D02 /* SocketManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SocketManager.m; path = ZFMSocketMsgHandle/Classes/SocketManager.m; sourceTree = "<group>"; };
+		18227DD05491E5C953FFF3282C94C367 /* ZFMSocketMsgHandle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZFMSocketMsgHandle.modulemap; sourceTree = "<group>"; };
+		19113207267AB0CEA5406DFB36D2B109 /* Pods-ZFMSocketMsgHandle_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZFMSocketMsgHandle_Example-frameworks.sh"; sourceTree = "<group>"; };
+		1B032C73F71DBBBE08319D1C96240EE8 /* Pods_ZFMSocketMsgHandle_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZFMSocketMsgHandle_Example.framework; path = "Pods-ZFMSocketMsgHandle_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B0864CA2BCAF9A68005DBFFF33DEB8A /* Pods-ZFMSocketMsgHandle_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZFMSocketMsgHandle_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1BAA542AB1FD30B89B32C01F1A1109DE /* Pods-ZFMSocketMsgHandle_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZFMSocketMsgHandle_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1E7452C239F5CF1A5F27DCC1EF435B0B /* SRWebSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRWebSocket.m; path = SocketRocket/SRWebSocket.m; sourceTree = "<group>"; };
+		238943DDB0CD14E18F1AAB493223EF31 /* Pods-ZFMSocketMsgHandle_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZFMSocketMsgHandle_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2613F1A8C35B6EDC832E0AB31F21951E /* ZFMSocketMsgHandle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZFMSocketMsgHandle.framework; path = ZFMSocketMsgHandle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		291B882EFF4A03FD132376B71F2824BA /* ZFMSocketMsgHandle.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZFMSocketMsgHandle.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2B2FFDBA132F329E1DF9B4C19FEB3E19 /* Pods-ZFMSocketMsgHandle_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZFMSocketMsgHandle_Example.release.xcconfig"; sourceTree = "<group>"; };
+		32612790A6971F94EBB7A3C71A1A9D72 /* Pods-ZFMSocketMsgHandle_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZFMSocketMsgHandle_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		33CE26AED1E59CE22E4AAA584FEAA1C0 /* Pods-ZFMSocketMsgHandle_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZFMSocketMsgHandle_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3C868DD118989F7710EFF00D34FD572A /* Pods-ZFMSocketMsgHandle_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZFMSocketMsgHandle_Example-Info.plist"; sourceTree = "<group>"; };
+		44E738FB03496846E72852C8FE8A8C29 /* ZFMSocketMsgHandle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZFMSocketMsgHandle-dummy.m"; sourceTree = "<group>"; };
+		45E4B47B12B6E8A4FC18EFB8C7D5AADD /* Pods-ZFMSocketMsgHandle_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZFMSocketMsgHandle_Tests.modulemap"; sourceTree = "<group>"; };
+		57CD3F6DA0159722D3221737697550C7 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ZFMSocketMsgHandle/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		5D80264A1ED976F764804E773AC3ABF4 /* Pods-ZFMSocketMsgHandle_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZFMSocketMsgHandle_Example.modulemap"; sourceTree = "<group>"; };
+		5EC46E2A0EC95041477D58DCBCB35DD5 /* ZFMSocketMsgHandle-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZFMSocketMsgHandle-umbrella.h"; sourceTree = "<group>"; };
+		66E80201F9E2A81D4AF7DA344A57F7C2 /* SocketRocket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SocketRocket.release.xcconfig; sourceTree = "<group>"; };
+		7170E073E4B1CDDAB72607430B713FC0 /* SocketRocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SocketRocket-umbrella.h"; sourceTree = "<group>"; };
+		73EFDEE8AC2AB29BBE9942D6C669FCC9 /* SocketRocket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SocketRocket.debug.xcconfig; sourceTree = "<group>"; };
+		783335BBA77CE3BED40F82A70250D107 /* SocketRocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SocketRocket-prefix.pch"; sourceTree = "<group>"; };
+		799911AB202CDAA9E9621C01B5A4EB39 /* Pods-ZFMSocketMsgHandle_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZFMSocketMsgHandle_Example-umbrella.h"; sourceTree = "<group>"; };
+		811666FBC93D5F468117372D03944992 /* SocketRocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SocketRocket.modulemap; sourceTree = "<group>"; };
+		83670A4972B101D85A1DADD0862004FF /* SRWebSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRWebSocket.h; path = SocketRocket/SRWebSocket.h; sourceTree = "<group>"; };
+		843DD39F64B91DDC0D553C956E136C9A /* ZFMSocketMsgHandle-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZFMSocketMsgHandle-prefix.pch"; sourceTree = "<group>"; };
+		849448F3544C1E2829C3D5094F611A5A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		85A01882ED06DFEA2E0CE78BCDB204A7 /* SocketRocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SocketRocket.framework; path = SocketRocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8832809CE6F5ABF08E5916C5E907EC16 /* SocketRocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SocketRocket.h; path = SocketRocket/SocketRocket.h; sourceTree = "<group>"; };
+		8DAD2FEB8855A7F634F0B4B2DD6F1BFB /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		9000CE3A69D54C9F17D6C7DBD546B6AB /* ZFMSocketMsgHandle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZFMSocketMsgHandle.debug.xcconfig; sourceTree = "<group>"; };
+		92FA0F91062D403C25EE7BBB532AFCF7 /* Pods-ZFMSocketMsgHandle_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZFMSocketMsgHandle_Tests-Info.plist"; sourceTree = "<group>"; };
+		9516AC1963529B50E41275E2FEFDC167 /* Pods-ZFMSocketMsgHandle_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZFMSocketMsgHandle_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FE5592256587F88520083DAFB2D817C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A2FE8BA5339A82523F67D5EB63E21D58 /* Pods-ZFMSocketMsgHandle_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZFMSocketMsgHandle_Tests-dummy.m"; sourceTree = "<group>"; };
+		AC6C20BF6621F6A0CCF340E924CE252B /* SocketMsgHandle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SocketMsgHandle.h; path = ZFMSocketMsgHandle/Classes/SocketMsgHandle.h; sourceTree = "<group>"; };
+		BC33E07D9973F4BF57BD73636361EE67 /* Pods-ZFMSocketMsgHandle_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZFMSocketMsgHandle_Example-dummy.m"; sourceTree = "<group>"; };
+		C1BCE281D4E9C59C89393A4B7E2B681D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C7615152C41CA900D7BF5DFB0897E5AC /* SocketMsgHandle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SocketMsgHandle.m; path = ZFMSocketMsgHandle/Classes/SocketMsgHandle.m; sourceTree = "<group>"; };
+		CC6C058E2E786EAAAD5D6E9B62E58EE6 /* Pods-ZFMSocketMsgHandle_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZFMSocketMsgHandle_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CF84761A9BB49928912615B1A94F6CDB /* SocketRocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SocketRocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5E45732B1641A4D8777A7A61CE70D6D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		E669E4846123411049893FFAC9DB61E4 /* Pods-ZFMSocketMsgHandle_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZFMSocketMsgHandle_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EB1D826951AAE482664960F3327455FD /* Pods_ZFMSocketMsgHandle_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZFMSocketMsgHandle_Tests.framework; path = "Pods-ZFMSocketMsgHandle_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED3BF98011DB897DFD6DF1D2A075D136 /* ZFMSocketMsgHandle-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZFMSocketMsgHandle-Info.plist"; sourceTree = "<group>"; };
+		F4BB500078F93946C3AB2BB7C33B5603 /* SocketRocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SocketRocket-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3997D427F2F81BF94100B7184D34D5B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				718627C939BA0B6981509093D9525DCF /* Foundation.framework in Frameworks */,
+				2F163FF78D4612C1CAC68009A1210179 /* SocketRocket.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		527A4DDB71FE99E789C03B16EED6F120 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C55BAF90C4EB80467C61EE0CBE309700 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56AC35E789C811CE09501582CCA2174A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFDED2CB3316B6FC19C01201F28E7546 /* CFNetwork.framework in Frameworks */,
+				0025C2C9745D4BA1368DFC0CFE227662 /* Foundation.framework in Frameworks */,
+				E9B7B74B8E22EA8B72014023066C5064 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC580876B206DCFC98AA6D8D86A20032 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C06D8DD7486D5FE925ECD0604B31EC30 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09F3E6A1737F6BAC5C6BB2A9EAE1C413 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF84761A9BB49928912615B1A94F6CDB /* SocketRocket.framework */,
+				8693736AFD1DA0D91BE53ADE31884652 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		405C776BB1B9E8B6CE07048F5D52561C /* Pods-ZFMSocketMsgHandle_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				45E4B47B12B6E8A4FC18EFB8C7D5AADD /* Pods-ZFMSocketMsgHandle_Tests.modulemap */,
+				32612790A6971F94EBB7A3C71A1A9D72 /* Pods-ZFMSocketMsgHandle_Tests-acknowledgements.markdown */,
+				CC6C058E2E786EAAAD5D6E9B62E58EE6 /* Pods-ZFMSocketMsgHandle_Tests-acknowledgements.plist */,
+				A2FE8BA5339A82523F67D5EB63E21D58 /* Pods-ZFMSocketMsgHandle_Tests-dummy.m */,
+				92FA0F91062D403C25EE7BBB532AFCF7 /* Pods-ZFMSocketMsgHandle_Tests-Info.plist */,
+				1BAA542AB1FD30B89B32C01F1A1109DE /* Pods-ZFMSocketMsgHandle_Tests-umbrella.h */,
+				238943DDB0CD14E18F1AAB493223EF31 /* Pods-ZFMSocketMsgHandle_Tests.debug.xcconfig */,
+				33CE26AED1E59CE22E4AAA584FEAA1C0 /* Pods-ZFMSocketMsgHandle_Tests.release.xcconfig */,
+			);
+			name = "Pods-ZFMSocketMsgHandle_Tests";
+			path = "Target Support Files/Pods-ZFMSocketMsgHandle_Tests";
+			sourceTree = "<group>";
+		};
+		4226AA5251CBC8D4C44BA5868011D81E /* Pods-ZFMSocketMsgHandle_Example */ = {
+			isa = PBXGroup;
+			children = (
+				5D80264A1ED976F764804E773AC3ABF4 /* Pods-ZFMSocketMsgHandle_Example.modulemap */,
+				E669E4846123411049893FFAC9DB61E4 /* Pods-ZFMSocketMsgHandle_Example-acknowledgements.markdown */,
+				9516AC1963529B50E41275E2FEFDC167 /* Pods-ZFMSocketMsgHandle_Example-acknowledgements.plist */,
+				BC33E07D9973F4BF57BD73636361EE67 /* Pods-ZFMSocketMsgHandle_Example-dummy.m */,
+				19113207267AB0CEA5406DFB36D2B109 /* Pods-ZFMSocketMsgHandle_Example-frameworks.sh */,
+				3C868DD118989F7710EFF00D34FD572A /* Pods-ZFMSocketMsgHandle_Example-Info.plist */,
+				799911AB202CDAA9E9621C01B5A4EB39 /* Pods-ZFMSocketMsgHandle_Example-umbrella.h */,
+				1B0864CA2BCAF9A68005DBFFF33DEB8A /* Pods-ZFMSocketMsgHandle_Example.debug.xcconfig */,
+				2B2FFDBA132F329E1DF9B4C19FEB3E19 /* Pods-ZFMSocketMsgHandle_Example.release.xcconfig */,
+			);
+			name = "Pods-ZFMSocketMsgHandle_Example";
+			path = "Target Support Files/Pods-ZFMSocketMsgHandle_Example";
+			sourceTree = "<group>";
+		};
+		485123D547041D69842139485BA317B2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				18227DD05491E5C953FFF3282C94C367 /* ZFMSocketMsgHandle.modulemap */,
+				44E738FB03496846E72852C8FE8A8C29 /* ZFMSocketMsgHandle-dummy.m */,
+				ED3BF98011DB897DFD6DF1D2A075D136 /* ZFMSocketMsgHandle-Info.plist */,
+				843DD39F64B91DDC0D553C956E136C9A /* ZFMSocketMsgHandle-prefix.pch */,
+				5EC46E2A0EC95041477D58DCBCB35DD5 /* ZFMSocketMsgHandle-umbrella.h */,
+				9000CE3A69D54C9F17D6C7DBD546B6AB /* ZFMSocketMsgHandle.debug.xcconfig */,
+				0D9F6475B11C8203E599A0C6B723F69C /* ZFMSocketMsgHandle.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZFMSocketMsgHandle";
+			sourceTree = "<group>";
+		};
+		5E539469810B37A9AA3267AC55F7056B /* ZFMSocketMsgHandle */ = {
+			isa = PBXGroup;
+			children = (
+				57CD3F6DA0159722D3221737697550C7 /* ReplaceMe.m */,
+				099449BE6E7F80ABB81CEB258DB170FB /* SocketManager.h */,
+				13F233E43FBC03850C61444632792D02 /* SocketManager.m */,
+				AC6C20BF6621F6A0CCF340E924CE252B /* SocketMsgHandle.h */,
+				C7615152C41CA900D7BF5DFB0897E5AC /* SocketMsgHandle.m */,
+				B050DEE120863CF5A9313D97356035D6 /* Pod */,
+				485123D547041D69842139485BA317B2 /* Support Files */,
+			);
+			name = ZFMSocketMsgHandle;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		61D91098BF335FB92E2325E6940A22BF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4226AA5251CBC8D4C44BA5868011D81E /* Pods-ZFMSocketMsgHandle_Example */,
+				405C776BB1B9E8B6CE07048F5D52561C /* Pods-ZFMSocketMsgHandle_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		81A81806582843B4ABE9F1DDD7BEB8BB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				811666FBC93D5F468117372D03944992 /* SocketRocket.modulemap */,
+				F4BB500078F93946C3AB2BB7C33B5603 /* SocketRocket-dummy.m */,
+				0D374BF941D2EEA091A6B26D8557993F /* SocketRocket-Info.plist */,
+				783335BBA77CE3BED40F82A70250D107 /* SocketRocket-prefix.pch */,
+				7170E073E4B1CDDAB72607430B713FC0 /* SocketRocket-umbrella.h */,
+				73EFDEE8AC2AB29BBE9942D6C669FCC9 /* SocketRocket.debug.xcconfig */,
+				66E80201F9E2A81D4AF7DA344A57F7C2 /* SocketRocket.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SocketRocket";
+			sourceTree = "<group>";
+		};
+		8693736AFD1DA0D91BE53ADE31884652 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8DAD2FEB8855A7F634F0B4B2DD6F1BFB /* CFNetwork.framework */,
+				C1BCE281D4E9C59C89393A4B7E2B681D /* Foundation.framework */,
+				E5E45732B1641A4D8777A7A61CE70D6D /* Security.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B050DEE120863CF5A9313D97356035D6 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				849448F3544C1E2829C3D5094F611A5A /* LICENSE */,
+				9FE5592256587F88520083DAFB2D817C /* README.md */,
+				291B882EFF4A03FD132376B71F2824BA /* ZFMSocketMsgHandle.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B97C0EF0071AB818D559040CDB767F5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B032C73F71DBBBE08319D1C96240EE8 /* Pods_ZFMSocketMsgHandle_Example.framework */,
+				EB1D826951AAE482664960F3327455FD /* Pods_ZFMSocketMsgHandle_Tests.framework */,
+				85A01882ED06DFEA2E0CE78BCDB204A7 /* SocketRocket.framework */,
+				2613F1A8C35B6EDC832E0AB31F21951E /* ZFMSocketMsgHandle.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2B2BA8923EDD61AE0DABFE479EC8618 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CEC4266160F6F383B1D76EEE2FBB170C /* SocketRocket */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CEC4266160F6F383B1D76EEE2FBB170C /* SocketRocket */ = {
+			isa = PBXGroup;
+			children = (
+				8832809CE6F5ABF08E5916C5E907EC16 /* SocketRocket.h */,
+				83670A4972B101D85A1DADD0862004FF /* SRWebSocket.h */,
+				1E7452C239F5CF1A5F27DCC1EF435B0B /* SRWebSocket.m */,
+				81A81806582843B4ABE9F1DDD7BEB8BB /* Support Files */,
+			);
+			name = SocketRocket;
+			path = SocketRocket;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				F15ED4527CFC62440C944039ED4381BC /* Development Pods */,
+				09F3E6A1737F6BAC5C6BB2A9EAE1C413 /* Frameworks */,
+				C2B2BA8923EDD61AE0DABFE479EC8618 /* Pods */,
+				B97C0EF0071AB818D559040CDB767F5A /* Products */,
+				61D91098BF335FB92E2325E6940A22BF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		F15ED4527CFC62440C944039ED4381BC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E539469810B37A9AA3267AC55F7056B /* ZFMSocketMsgHandle */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		09B62F7942032F06A9297BFE2731A2D5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33B94306072B315DAC1A2FFCC73B5C08 /* Pods-ZFMSocketMsgHandle_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17BA34119E6FD4CDB922FEF45E0884DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1673306D2528E24477E098832882D05 /* SocketRocket-umbrella.h in Headers */,
+				778D0B3A3BFC6B74234D39F9EDCF3659 /* SocketRocket.h in Headers */,
+				9E2B1AC4FC728208BB79B52BFEB2D78F /* SRWebSocket.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25A0FCE6892F974206090063F94B1B91 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				949A1B9F8DC5F24862C1635754691081 /* SocketManager.h in Headers */,
+				644AB50980F01779B53EE7B6C324998D /* SocketMsgHandle.h in Headers */,
+				E6FB7791B3140FBA3AB1FD3BAE176281 /* ZFMSocketMsgHandle-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A01E3E75BBC62772681EC1C305AFB8A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48FD685B64664A1989A23D65E10DE864 /* Pods-ZFMSocketMsgHandle_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		081B451B80C52E95B8E0566AE119927F /* ZFMSocketMsgHandle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9134238F275ED792628E87AB79BFB80D /* Build configuration list for PBXNativeTarget "ZFMSocketMsgHandle" */;
+			buildPhases = (
+				25A0FCE6892F974206090063F94B1B91 /* Headers */,
+				32278F5244E44654EE9F4B49A86EFDDE /* Sources */,
+				3997D427F2F81BF94100B7184D34D5B3 /* Frameworks */,
+				55B768F9FAE283122027896CBD13A40B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9EA636EE9D63498012022DC02AEE00B /* PBXTargetDependency */,
+			);
+			name = ZFMSocketMsgHandle;
+			productName = ZFMSocketMsgHandle;
+			productReference = 2613F1A8C35B6EDC832E0AB31F21951E /* ZFMSocketMsgHandle.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1948D0B63D2CF6A48E18B0B292BC6091 /* SocketRocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7578135F0A9991A7E2A8B169207EBA17 /* Build configuration list for PBXNativeTarget "SocketRocket" */;
+			buildPhases = (
+				17BA34119E6FD4CDB922FEF45E0884DA /* Headers */,
+				DB50286F169C0450B2990CE14479F856 /* Sources */,
+				56AC35E789C811CE09501582CCA2174A /* Frameworks */,
+				A6620E44D4248429BD059BDB7FBF21F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocketRocket;
+			productName = SocketRocket;
+			productReference = 85A01882ED06DFEA2E0CE78BCDB204A7 /* SocketRocket.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		600A795D8BC492918A0DF4F04643BD18 /* Pods-ZFMSocketMsgHandle_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED442F3726060161B364E51228EFC18A /* Build configuration list for PBXNativeTarget "Pods-ZFMSocketMsgHandle_Example" */;
+			buildPhases = (
+				09B62F7942032F06A9297BFE2731A2D5 /* Headers */,
+				E0D4975A6236B01C53BC85371BFEE047 /* Sources */,
+				EC580876B206DCFC98AA6D8D86A20032 /* Frameworks */,
+				FED1A298BFC2887A0B1097AE73FE92AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF712CC9F34EE3260F20FF39E75A0689 /* PBXTargetDependency */,
+				C238D15DDF32ADDB2B465C76FF95B3C1 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZFMSocketMsgHandle_Example";
+			productName = "Pods-ZFMSocketMsgHandle_Example";
+			productReference = 1B032C73F71DBBBE08319D1C96240EE8 /* Pods_ZFMSocketMsgHandle_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		63F0F0CD66C761C48C878CC0F7034788 /* Pods-ZFMSocketMsgHandle_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3413358FAEAF0D6D0A3923A2830DD5E1 /* Build configuration list for PBXNativeTarget "Pods-ZFMSocketMsgHandle_Tests" */;
+			buildPhases = (
+				4A01E3E75BBC62772681EC1C305AFB8A /* Headers */,
+				A28F1C16C60245FDEE9FD8CA0E13B609 /* Sources */,
+				527A4DDB71FE99E789C03B16EED6F120 /* Frameworks */,
+				2A4F43853455441E5C29C166AAB04BA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAAAEF074A42B8D5A16261EB88662189 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZFMSocketMsgHandle_Tests";
+			productName = "Pods-ZFMSocketMsgHandle_Tests";
+			productReference = EB1D826951AAE482664960F3327455FD /* Pods_ZFMSocketMsgHandle_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B97C0EF0071AB818D559040CDB767F5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				600A795D8BC492918A0DF4F04643BD18 /* Pods-ZFMSocketMsgHandle_Example */,
+				63F0F0CD66C761C48C878CC0F7034788 /* Pods-ZFMSocketMsgHandle_Tests */,
+				1948D0B63D2CF6A48E18B0B292BC6091 /* SocketRocket */,
+				081B451B80C52E95B8E0566AE119927F /* ZFMSocketMsgHandle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A4F43853455441E5C29C166AAB04BA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55B768F9FAE283122027896CBD13A40B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6620E44D4248429BD059BDB7FBF21F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FED1A298BFC2887A0B1097AE73FE92AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32278F5244E44654EE9F4B49A86EFDDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADEB6592F3D729B4657222B76545AAE9 /* ReplaceMe.m in Sources */,
+				4F10300F1B68B9D5032E40EB659C223E /* SocketManager.m in Sources */,
+				942805DC3F88FCB760CC4E70BBE8FDA2 /* SocketMsgHandle.m in Sources */,
+				EE42FC3B05BA351BF35F3543910AD09C /* ZFMSocketMsgHandle-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A28F1C16C60245FDEE9FD8CA0E13B609 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8824ECF1386C06CAF4888F29CC36E763 /* Pods-ZFMSocketMsgHandle_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB50286F169C0450B2990CE14479F856 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				735DFE5216ED66A16259B56CAB3B46CF /* SocketRocket-dummy.m in Sources */,
+				73B4B4972C5D3416AA4F2C65F5BE3305 /* SRWebSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0D4975A6236B01C53BC85371BFEE047 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				522E5B6A9D6D809AC93817E1860CC9C9 /* Pods-ZFMSocketMsgHandle_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B9EA636EE9D63498012022DC02AEE00B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SocketRocket;
+			target = 1948D0B63D2CF6A48E18B0B292BC6091 /* SocketRocket */;
+			targetProxy = 5BFAE6F3989B81467EFF58EAB84AEE9F /* PBXContainerItemProxy */;
+		};
+		C238D15DDF32ADDB2B465C76FF95B3C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZFMSocketMsgHandle;
+			target = 081B451B80C52E95B8E0566AE119927F /* ZFMSocketMsgHandle */;
+			targetProxy = 2480643A632ABBB5586278C4534B4729 /* PBXContainerItemProxy */;
+		};
+		FAAAEF074A42B8D5A16261EB88662189 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ZFMSocketMsgHandle_Example";
+			target = 600A795D8BC492918A0DF4F04643BD18 /* Pods-ZFMSocketMsgHandle_Example */;
+			targetProxy = 80C1914A3C5EF0ACB0146F33DED4D0DA /* PBXContainerItemProxy */;
+		};
+		FF712CC9F34EE3260F20FF39E75A0689 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SocketRocket;
+			target = 1948D0B63D2CF6A48E18B0B292BC6091 /* SocketRocket */;
+			targetProxy = 5073010E1AA6ADA6E3C47324311E3267 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		080F90F0E96611AA87DB9E0758AC8D20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73EFDEE8AC2AB29BBE9942D6C669FCC9 /* SocketRocket.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SocketRocket/SocketRocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SocketRocket/SocketRocket-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SocketRocket/SocketRocket.modulemap";
+				PRODUCT_MODULE_NAME = SocketRocket;
+				PRODUCT_NAME = SocketRocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1EAA9462228F4D09CE5FD01B4CABB052 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66E80201F9E2A81D4AF7DA344A57F7C2 /* SocketRocket.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SocketRocket/SocketRocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SocketRocket/SocketRocket-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SocketRocket/SocketRocket.modulemap";
+				PRODUCT_MODULE_NAME = SocketRocket;
+				PRODUCT_NAME = SocketRocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		27E83708088D0EF2C0747D64FC1840A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B0864CA2BCAF9A68005DBFFF33DEB8A /* Pods-ZFMSocketMsgHandle_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZFMSocketMsgHandle_Example/Pods-ZFMSocketMsgHandle_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZFMSocketMsgHandle_Example/Pods-ZFMSocketMsgHandle_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		483CDF8303560B370BD85F3D17206949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 238943DDB0CD14E18F1AAB493223EF31 /* Pods-ZFMSocketMsgHandle_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZFMSocketMsgHandle_Tests/Pods-ZFMSocketMsgHandle_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZFMSocketMsgHandle_Tests/Pods-ZFMSocketMsgHandle_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5BB2E3630B7DDED70E1C71FF409A3052 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B2FFDBA132F329E1DF9B4C19FEB3E19 /* Pods-ZFMSocketMsgHandle_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZFMSocketMsgHandle_Example/Pods-ZFMSocketMsgHandle_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZFMSocketMsgHandle_Example/Pods-ZFMSocketMsgHandle_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6641B0DD4933CDCB004CF7AB67A53CAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9000CE3A69D54C9F17D6C7DBD546B6AB /* ZFMSocketMsgHandle.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZFMSocketMsgHandle/ZFMSocketMsgHandle-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZFMSocketMsgHandle/ZFMSocketMsgHandle-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZFMSocketMsgHandle/ZFMSocketMsgHandle.modulemap";
+				PRODUCT_MODULE_NAME = ZFMSocketMsgHandle;
+				PRODUCT_NAME = ZFMSocketMsgHandle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		95405CF15E4F79416B4CDD2C7AA2CFF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33CE26AED1E59CE22E4AAA584FEAA1C0 /* Pods-ZFMSocketMsgHandle_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZFMSocketMsgHandle_Tests/Pods-ZFMSocketMsgHandle_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZFMSocketMsgHandle_Tests/Pods-ZFMSocketMsgHandle_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9D54C67A338022B69273CE30621BBFB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D9F6475B11C8203E599A0C6B723F69C /* ZFMSocketMsgHandle.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZFMSocketMsgHandle/ZFMSocketMsgHandle-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZFMSocketMsgHandle/ZFMSocketMsgHandle-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZFMSocketMsgHandle/ZFMSocketMsgHandle.modulemap";
+				PRODUCT_MODULE_NAME = ZFMSocketMsgHandle;
+				PRODUCT_NAME = ZFMSocketMsgHandle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C14E932D4C3EFCC589F7DEABCEC18F22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		EF3BAAA889B17377BE8F3254633FA0A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3413358FAEAF0D6D0A3923A2830DD5E1 /* Build configuration list for PBXNativeTarget "Pods-ZFMSocketMsgHandle_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				483CDF8303560B370BD85F3D17206949 /* Debug */,
+				95405CF15E4F79416B4CDD2C7AA2CFF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF3BAAA889B17377BE8F3254633FA0A7 /* Debug */,
+				C14E932D4C3EFCC589F7DEABCEC18F22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7578135F0A9991A7E2A8B169207EBA17 /* Build configuration list for PBXNativeTarget "SocketRocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				080F90F0E96611AA87DB9E0758AC8D20 /* Debug */,
+				1EAA9462228F4D09CE5FD01B4CABB052 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9134238F275ED792628E87AB79BFB80D /* Build configuration list for PBXNativeTarget "ZFMSocketMsgHandle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6641B0DD4933CDCB004CF7AB67A53CAB /* Debug */,
+				9D54C67A338022B69273CE30621BBFB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED442F3726060161B364E51228EFC18A /* Build configuration list for PBXNativeTarget "Pods-ZFMSocketMsgHandle_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27E83708088D0EF2C0747D64FC1840A0 /* Debug */,
+				5BB2E3630B7DDED70E1C71FF409A3052 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

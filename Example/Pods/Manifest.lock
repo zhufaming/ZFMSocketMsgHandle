@@ -1,0 +1,23 @@
+PODS:
+  - SocketRocket (0.5.1)
+  - ZFMSocketMsgHandle (0.1.0):
+    - SocketRocket
+
+DEPENDENCIES:
+  - ZFMSocketMsgHandle (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - SocketRocket
+
+EXTERNAL SOURCES:
+  ZFMSocketMsgHandle:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
+  ZFMSocketMsgHandle: cfbce616af307944d81afbbcd93b4c48a477ad6b
+
+PODFILE CHECKSUM: d9f12d5a34910b9252327a10a83ef002c6790514
+
+COCOAPODS: 1.9.3

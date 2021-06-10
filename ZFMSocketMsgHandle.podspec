@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ZFMSocketMsgHandle'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ZFMSocketMsgHandle.'
+  s.summary          = '基于WebSocket 实现的消息推送+本地通知处理'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO:基于WebSocket 实现的消息推送+本地通知处理，实现通知代理、只关注消息数据处理即可
                        DESC
 
   s.homepage         = 'https://github.com/zhufaming88@163.com/ZFMSocketMsgHandle'
@@ -38,5 +38,5 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'SocketRocket'
 end
