@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZFMSocketMsgHandle'
-  s.version          = '0.1.0'
+  s.version          = '0.0.1'
   s.summary          = '基于WebSocket 实现的消息推送+本地通知处理'
 
 # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ TODO:基于WebSocket 实现的消息推送+本地通知处理，实现通知代�
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'zhufaming88@163.com' => 'zhufaming88@163.com' }
-  s.source           = { :git => 'https://github.com/zhufaming/ZFMSocketMsgHandle.git', :tag => 0.0.1 }
+  s.source           = { :git => 'https://github.com/zhufaming/ZFMSocketMsgHandle.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
