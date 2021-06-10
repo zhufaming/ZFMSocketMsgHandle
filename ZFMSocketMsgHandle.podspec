@@ -21,14 +21,14 @@ Pod::Spec.new do |s|
 TODO:基于WebSocket 实现的消息推送+本地通知处理，实现通知代理、只关注消息数据处理即可
                        DESC
 
-  s.homepage         = 'https://github.com/zhufaming88@163.com/ZFMSocketMsgHandle'
+  s.homepage         = 'https://github.com/zhufaming/ZFMSocketMsgHandle'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'zhufaming88@163.com' => 'zhufaming88@163.com' }
-  s.source           = { :git => 'https://github.com/zhufaming88@163.com/ZFMSocketMsgHandle.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/zhufaming/ZFMSocketMsgHandle.git', :tag => 0.0.1 }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'ZFMSocketMsgHandle/Classes/**/*'
   
