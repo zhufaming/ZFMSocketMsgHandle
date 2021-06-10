@@ -36,7 +36,7 @@ TODO:基于WebSocket 实现的消息推送+本地通知处理，实现通知代�
   #   'ZFMSocketMsgHandle' => ['ZFMSocketMsgHandle/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'SocketRocket'
 end
