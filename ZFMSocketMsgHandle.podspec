@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.name             = 'ZFMSocketMsgHandle'
   s.version          = '0.0.1'
   s.summary          = '基于WebSocket 实现的消息推送+本地通知处理'
-
+  s.platform = :ios
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
