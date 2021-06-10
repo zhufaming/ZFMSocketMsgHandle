@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'ZFMSocketMsgHandle_Example' do
+  pod 'ZFMSocketMsgHandle', :path => '../'
+
+  target 'ZFMSocketMsgHandle_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
