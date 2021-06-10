@@ -24,7 +24,7 @@ TODO:基于WebSocket 实现的消息推送+本地通知处理，实现通知代�
   s.homepage         = 'https://github.com/zhufaming/ZFMSocketMsgHandle'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'zhufaming88@163.com' => 'zhufaming88@163.com' }
+  s.author           = { 'zhufaming' => 'zhufaming88@163.com' }
   s.source           = { :git => 'https://github.com/zhufaming/ZFMSocketMsgHandle.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
